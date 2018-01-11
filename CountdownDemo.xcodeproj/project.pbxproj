@@ -13,6 +13,9 @@
 		01A27A682007052900AF9AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A27A662007052900AF9AE5 /* Main.storyboard */; };
 		01A27A6A2007052900AF9AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A27A692007052900AF9AE5 /* Assets.xcassets */; };
 		01A27A6D2007052900AF9AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A27A6B2007052900AF9AE5 /* LaunchScreen.storyboard */; };
+		01A27A772007056500AF9AE5 /* CountdownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A27A762007056500AF9AE5 /* CountdownManager.m */; };
+		01A27A7A20070AF300AF9AE5 /* CountdownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A27A7920070AF300AF9AE5 /* CountdownModel.m */; };
+		01A27A7D2007288600AF9AE5 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A27A7C2007288600AF9AE5 /* TestCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		01A27A692007052900AF9AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01A27A6C2007052900AF9AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01A27A6E2007052900AF9AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A27A752007056500AF9AE5 /* CountdownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownManager.h; sourceTree = "<group>"; };
+		01A27A762007056500AF9AE5 /* CountdownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownManager.m; sourceTree = "<group>"; };
+		01A27A7820070AF300AF9AE5 /* CountdownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownModel.h; sourceTree = "<group>"; };
+		01A27A7920070AF300AF9AE5 /* CountdownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownModel.m; sourceTree = "<group>"; };
+		01A27A7B2007288600AF9AE5 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		01A27A7C2007288600AF9AE5 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,9 @@
 				01A27A612007052900AF9AE5 /* AppDelegate.m */,
 				01A27A632007052900AF9AE5 /* ViewController.h */,
 				01A27A642007052900AF9AE5 /* ViewController.m */,
+				01A27A7B2007288600AF9AE5 /* TestCell.h */,
+				01A27A7C2007288600AF9AE5 /* TestCell.m */,
+				01A27A742007053D00AF9AE5 /* 倒计时 */,
 				01A27A662007052900AF9AE5 /* Main.storyboard */,
 				01A27A692007052900AF9AE5 /* Assets.xcassets */,
 				01A27A6B2007052900AF9AE5 /* LaunchScreen.storyboard */,
@@ -77,6 +89,17 @@
 				01A27A5E2007052900AF9AE5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A27A742007053D00AF9AE5 /* 倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				01A27A752007056500AF9AE5 /* CountdownManager.h */,
+				01A27A762007056500AF9AE5 /* CountdownManager.m */,
+				01A27A7820070AF300AF9AE5 /* CountdownModel.h */,
+				01A27A7920070AF300AF9AE5 /* CountdownModel.m */,
+			);
+			name = "倒计时";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A27A7A20070AF300AF9AE5 /* CountdownModel.m in Sources */,
+				01A27A7D2007288600AF9AE5 /* TestCell.m in Sources */,
 				01A27A652007052900AF9AE5 /* ViewController.m in Sources */,
+				01A27A772007056500AF9AE5 /* CountdownManager.m in Sources */,
 				01A27A622007052900AF9AE5 /* AppDelegate.m in Sources */,
 				01A27A5F2007052900AF9AE5 /* main.m in Sources */,
 			);
